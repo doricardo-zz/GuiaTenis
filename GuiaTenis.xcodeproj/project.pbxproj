@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D01E253191DB3B300353BDF /* RevMobAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D01E252191DB3B300353BDF /* RevMobAds.framework */; };
+		9D080124191CE95500907A4A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D080123191CE95500907A4A /* AdSupport.framework */; };
+		9D19CB20192374750088B8AD /* NovidadesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D19CB1F192374750088B8AD /* NovidadesTableViewController.m */; };
+		9D2F07E01921B949004126DB /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2F07DF1921B949004126DB /* facebook.png */; };
+		9DA11FA819291CFE00B0FCD9 /* help_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA11FA619291CFE00B0FCD9 /* help_30.png */; };
+		9DA11FAB192920D200B0FCD9 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA11FAA192920D200B0FCD9 /* HelpViewController.m */; };
+		9DA11FAF1929659E00B0FCD9 /* PisadaPronada.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA11FAC1929659E00B0FCD9 /* PisadaPronada.png */; };
+		9DA11FB01929659E00B0FCD9 /* PisadaNeutra.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA11FAD1929659E00B0FCD9 /* PisadaNeutra.png */; };
+		9DA11FB11929659E00B0FCD9 /* PisadaSupinada.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA11FAE1929659E00B0FCD9 /* PisadaSupinada.png */; };
+		9DB11E681916FB7800E2F6E7 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB11E671916FB7800E2F6E7 /* Parse.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		9DB11E6A1916FDC200E2F6E7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB11E691916FDC200E2F6E7 /* AudioToolbox.framework */; };
+		9DB11E6C1916FDC800E2F6E7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB11E6B1916FDC800E2F6E7 /* CFNetwork.framework */; };
+		9DB11E6E1916FDD500E2F6E7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB11E6D1916FDD500E2F6E7 /* CoreLocation.framework */; };
+		9DB11E701916FDDE00E2F6E7 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB11E6F1916FDDE00E2F6E7 /* libz.1.1.3.dylib */; };
+		9DB11E721916FDE500E2F6E7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB11E711916FDE500E2F6E7 /* MobileCoreServices.framework */; };
+		9DB11E741916FDED00E2F6E7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB11E731916FDED00E2F6E7 /* QuartzCore.framework */; };
+		9DB11E761916FDFA00E2F6E7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB11E751916FDFA00E2F6E7 /* Security.framework */; };
+		9DB11E781916FE0200E2F6E7 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB11E771916FE0200E2F6E7 /* StoreKit.framework */; };
+		9DB11E7A1916FE0F00E2F6E7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB11E791916FE0E00E2F6E7 /* SystemConfiguration.framework */; };
+		9DB11E7D1916FEB900E2F6E7 /* Tenis.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB11E7C1916FEB900E2F6E7 /* Tenis.m */; };
+		9DCF10F4191FBA4C00989561 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCF10F3191FBA4C00989561 /* SWRevealViewController.m */; };
+		9DCF10FB191FFE9100989561 /* reveal-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCF10F9191FFE9100989561 /* reveal-icon.png */; };
+		9DCF10FC191FFE9100989561 /* reveal-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCF10FA191FFE9100989561 /* reveal-icon@2x.png */; };
+		9DCF10FF192007F400989561 /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCF10FE192007F400989561 /* SidebarViewController.m */; };
+		9DCF110419202F1D00989561 /* noimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCF110319202F1D00989561 /* noimage.png */; };
+		9DCF1106192040C500989561 /* left-reveal-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCF1105192040C400989561 /* left-reveal-icon.png */; };
+		9DCF11081920BA3D00989561 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DCF11071920BA3D00989561 /* Social.framework */; };
+		9DCF11121920DAB000989561 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCF11111920DAB000989561 /* iTunesArtwork.png */; };
+		F41C80A218531640002AE0A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41C80A118531640002AE0A3 /* Foundation.framework */; };
+		F41C80A418531640002AE0A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41C80A318531640002AE0A3 /* CoreGraphics.framework */; };
+		F41C80A618531640002AE0A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41C80A518531640002AE0A3 /* UIKit.framework */; };
+		F41C80AC18531640002AE0A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F41C80AA18531640002AE0A3 /* InfoPlist.strings */; };
+		F41C80AE18531640002AE0A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F41C80AD18531640002AE0A3 /* main.m */; };
+		F41C80B218531640002AE0A3 /* RecipeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F41C80B118531640002AE0A3 /* RecipeAppDelegate.m */; };
+		F41C80B518531640002AE0A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F41C80B318531640002AE0A3 /* Main.storyboard */; };
+		F41C80B818531640002AE0A3 /* RecipeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41C80B718531640002AE0A3 /* RecipeTableViewController.m */; };
+		F41C80BA18531640002AE0A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F41C80B918531640002AE0A3 /* Images.xcassets */; };
+		F41C80C118531640002AE0A3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41C80C018531640002AE0A3 /* XCTest.framework */; };
+		F41C80C218531640002AE0A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41C80A118531640002AE0A3 /* Foundation.framework */; };
+		F41C80C318531640002AE0A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41C80A518531640002AE0A3 /* UIKit.framework */; };
+		F41C80CB18531640002AE0A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F41C80C918531640002AE0A3 /* InfoPlist.strings */; };
+		F41C80CD18531640002AE0A3 /* RecipeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F41C80CC18531640002AE0A3 /* RecipeAppTests.m */; };
+		F41C80F818577EB8002AE0A3 /* RecipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F41C80F718577EB8002AE0A3 /* RecipeTableCell.m */; };
+		F49F790F186882700036E03F /* RecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49F790E186882700036E03F /* RecipeDetailViewController.m */; };
+		F4D2BFE5186B096D0037FAEE /* photo-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D2BFE3186B096D0037FAEE /* photo-frame.png */; };
+		F4D2BFE6186B096D0037FAEE /* photo-frame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D2BFE4186B096D0037FAEE /* photo-frame@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F41C80C418531640002AE0A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F41C809618531640002AE0A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F41C809D18531640002AE0A3;
+			remoteInfo = CustomTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D01E252191DB3B300353BDF /* RevMobAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RevMobAds.framework; sourceTree = "<group>"; };
+		9D080123191CE95500907A4A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		9D19CB1E192374750088B8AD /* NovidadesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NovidadesTableViewController.h; sourceTree = "<group>"; };
+		9D19CB1F192374750088B8AD /* NovidadesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NovidadesTableViewController.m; sourceTree = "<group>"; };
+		9D2F07DF1921B949004126DB /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		9DA11FA619291CFE00B0FCD9 /* help_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help_30.png; sourceTree = "<group>"; };
+		9DA11FA9192920D200B0FCD9 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		9DA11FAA192920D200B0FCD9 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		9DA11FAC1929659E00B0FCD9 /* PisadaPronada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PisadaPronada.png; sourceTree = "<group>"; };
+		9DA11FAD1929659E00B0FCD9 /* PisadaNeutra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PisadaNeutra.png; sourceTree = "<group>"; };
+		9DA11FAE1929659E00B0FCD9 /* PisadaSupinada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PisadaSupinada.png; sourceTree = "<group>"; };
+		9DB11E671916FB7800E2F6E7 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		9DB11E691916FDC200E2F6E7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9DB11E6B1916FDC800E2F6E7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9DB11E6D1916FDD500E2F6E7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9DB11E6F1916FDDE00E2F6E7 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		9DB11E711916FDE500E2F6E7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9DB11E731916FDED00E2F6E7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9DB11E751916FDFA00E2F6E7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9DB11E771916FE0200E2F6E7 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		9DB11E791916FE0E00E2F6E7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9DB11E7B1916FEB900E2F6E7 /* Tenis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tenis.h; sourceTree = "<group>"; };
+		9DB11E7C1916FEB900E2F6E7 /* Tenis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tenis.m; sourceTree = "<group>"; };
+		9DCF10F2191FBA4C00989561 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		9DCF10F3191FBA4C00989561 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		9DCF10F9191FFE9100989561 /* reveal-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal-icon.png"; sourceTree = "<group>"; };
+		9DCF10FA191FFE9100989561 /* reveal-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal-icon@2x.png"; sourceTree = "<group>"; };
+		9DCF10FD192007F400989561 /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarViewController.h; sourceTree = "<group>"; };
+		9DCF10FE192007F400989561 /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarViewController.m; sourceTree = "<group>"; };
+		9DCF110319202F1D00989561 /* noimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage.png; sourceTree = "<group>"; };
+		9DCF1105192040C400989561 /* left-reveal-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-reveal-icon.png"; sourceTree = "<group>"; };
+		9DCF11071920BA3D00989561 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		9DCF11111920DAB000989561 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		F41C809E18531640002AE0A3 /* GuiaTenis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuiaTenis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41C80A118531640002AE0A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F41C80A318531640002AE0A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F41C80A518531640002AE0A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F41C80A918531640002AE0A3 /* GuiaTenisApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuiaTenisApp-Info.plist"; sourceTree = "<group>"; };
+		F41C80AB18531640002AE0A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F41C80AD18531640002AE0A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F41C80AF18531640002AE0A3 /* GuiaTenis-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GuiaTenis-Prefix.pch"; sourceTree = "<group>"; };
+		F41C80B018531640002AE0A3 /* RecipeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeAppDelegate.h; sourceTree = "<group>"; };
+		F41C80B118531640002AE0A3 /* RecipeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeAppDelegate.m; sourceTree = "<group>"; };
+		F41C80B418531640002AE0A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F41C80B618531640002AE0A3 /* RecipeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeTableViewController.h; sourceTree = "<group>"; };
+		F41C80B718531640002AE0A3 /* RecipeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeTableViewController.m; sourceTree = "<group>"; };
+		F41C80B918531640002AE0A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F41C80BF18531640002AE0A3 /* GuiaTenisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuiaTenisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41C80C018531640002AE0A3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F41C80C818531640002AE0A3 /* GuiaTenisTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuiaTenisTests-Info.plist"; sourceTree = "<group>"; };
+		F41C80CA18531640002AE0A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F41C80CC18531640002AE0A3 /* RecipeAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeAppTests.m; sourceTree = "<group>"; };
+		F41C80F618577EB8002AE0A3 /* RecipeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeTableCell.h; sourceTree = "<group>"; };
+		F41C80F718577EB8002AE0A3 /* RecipeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeTableCell.m; sourceTree = "<group>"; };
+		F49F790D186882700036E03F /* RecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailViewController.h; sourceTree = "<group>"; };
+		F49F790E186882700036E03F /* RecipeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailViewController.m; sourceTree = "<group>"; };
+		F4D2BFE3186B096D0037FAEE /* photo-frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photo-frame.png"; path = "images/photo-frame.png"; sourceTree = "<group>"; };
+		F4D2BFE4186B096D0037FAEE /* photo-frame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photo-frame@2x.png"; path = "images/photo-frame@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F41C809B18531640002AE0A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D01E253191DB3B300353BDF /* RevMobAds.framework in Frameworks */,
+				9DB11E6E1916FDD500E2F6E7 /* CoreLocation.framework in Frameworks */,
+				9D080124191CE95500907A4A /* AdSupport.framework in Frameworks */,
+				9DB11E7A1916FE0F00E2F6E7 /* SystemConfiguration.framework in Frameworks */,
+				9DB11E781916FE0200E2F6E7 /* StoreKit.framework in Frameworks */,
+				9DB11E761916FDFA00E2F6E7 /* Security.framework in Frameworks */,
+				9DB11E741916FDED00E2F6E7 /* QuartzCore.framework in Frameworks */,
+				9DB11E721916FDE500E2F6E7 /* MobileCoreServices.framework in Frameworks */,
+				9DB11E701916FDDE00E2F6E7 /* libz.1.1.3.dylib in Frameworks */,
+				9DB11E6C1916FDC800E2F6E7 /* CFNetwork.framework in Frameworks */,
+				9DB11E6A1916FDC200E2F6E7 /* AudioToolbox.framework in Frameworks */,
+				F41C80A418531640002AE0A3 /* CoreGraphics.framework in Frameworks */,
+				F41C80A618531640002AE0A3 /* UIKit.framework in Frameworks */,
+				9DB11E681916FB7800E2F6E7 /* Parse.framework in Frameworks */,
+				F41C80A218531640002AE0A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41C80BC18531640002AE0A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DCF11081920BA3D00989561 /* Social.framework in Frameworks */,
+				F41C80C118531640002AE0A3 /* XCTest.framework in Frameworks */,
+				F41C80C318531640002AE0A3 /* UIKit.framework in Frameworks */,
+				F41C80C218531640002AE0A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DCF10F1191FBA3B00989561 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				9DCF10F2191FBA4C00989561 /* SWRevealViewController.h */,
+				9DCF10F3191FBA4C00989561 /* SWRevealViewController.m */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		F41C809518531640002AE0A3 = {
+			isa = PBXGroup;
+			children = (
+				F41C80A718531640002AE0A3 /* GuiaTenis */,
+				F41C80C618531640002AE0A3 /* GuiaTenisTests */,
+				F41C80A018531640002AE0A3 /* Frameworks */,
+				F41C809F18531640002AE0A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F41C809F18531640002AE0A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F41C809E18531640002AE0A3 /* GuiaTenis.app */,
+				F41C80BF18531640002AE0A3 /* GuiaTenisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F41C80A018531640002AE0A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DCF11071920BA3D00989561 /* Social.framework */,
+				9D01E252191DB3B300353BDF /* RevMobAds.framework */,
+				9D080123191CE95500907A4A /* AdSupport.framework */,
+				9DB11E791916FE0E00E2F6E7 /* SystemConfiguration.framework */,
+				9DB11E771916FE0200E2F6E7 /* StoreKit.framework */,
+				9DB11E751916FDFA00E2F6E7 /* Security.framework */,
+				9DB11E731916FDED00E2F6E7 /* QuartzCore.framework */,
+				9DB11E711916FDE500E2F6E7 /* MobileCoreServices.framework */,
+				9DB11E6F1916FDDE00E2F6E7 /* libz.1.1.3.dylib */,
+				9DB11E6D1916FDD500E2F6E7 /* CoreLocation.framework */,
+				9DB11E6B1916FDC800E2F6E7 /* CFNetwork.framework */,
+				9DB11E691916FDC200E2F6E7 /* AudioToolbox.framework */,
+				9DB11E671916FB7800E2F6E7 /* Parse.framework */,
+				F41C80A118531640002AE0A3 /* Foundation.framework */,
+				F41C80A318531640002AE0A3 /* CoreGraphics.framework */,
+				F41C80A518531640002AE0A3 /* UIKit.framework */,
+				F41C80C018531640002AE0A3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F41C80A718531640002AE0A3 /* GuiaTenis */ = {
+			isa = PBXGroup;
+			children = (
+				F41C80B318531640002AE0A3 /* Main.storyboard */,
+				F41C80B018531640002AE0A3 /* RecipeAppDelegate.h */,
+				F41C80B118531640002AE0A3 /* RecipeAppDelegate.m */,
+				9DCF10FD192007F400989561 /* SidebarViewController.h */,
+				9DCF10FE192007F400989561 /* SidebarViewController.m */,
+				9D19CB1E192374750088B8AD /* NovidadesTableViewController.h */,
+				9D19CB1F192374750088B8AD /* NovidadesTableViewController.m */,
+				F41C80B618531640002AE0A3 /* RecipeTableViewController.h */,
+				F41C80B718531640002AE0A3 /* RecipeTableViewController.m */,
+				F41C80B918531640002AE0A3 /* Images.xcassets */,
+				F41C80F718577EB8002AE0A3 /* RecipeTableCell.m */,
+				F41C80F618577EB8002AE0A3 /* RecipeTableCell.h */,
+				F49F790D186882700036E03F /* RecipeDetailViewController.h */,
+				F49F790E186882700036E03F /* RecipeDetailViewController.m */,
+				9DA11FA9192920D200B0FCD9 /* HelpViewController.h */,
+				9DA11FAA192920D200B0FCD9 /* HelpViewController.m */,
+				9DB11E7B1916FEB900E2F6E7 /* Tenis.h */,
+				9DB11E7C1916FEB900E2F6E7 /* Tenis.m */,
+				9DCF10F1191FBA3B00989561 /* Library */,
+				F4DF4E5C1873EF8D0065FDBC /* resources */,
+				F41C80A818531640002AE0A3 /* Supporting Files */,
+			);
+			name = GuiaTenis;
+			path = CustomTable;
+			sourceTree = "<group>";
+		};
+		F41C80A818531640002AE0A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F41C80A918531640002AE0A3 /* GuiaTenisApp-Info.plist */,
+				F41C80AA18531640002AE0A3 /* InfoPlist.strings */,
+				F41C80AD18531640002AE0A3 /* main.m */,
+				F41C80AF18531640002AE0A3 /* GuiaTenis-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F41C80C618531640002AE0A3 /* GuiaTenisTests */ = {
+			isa = PBXGroup;
+			children = (
+				F41C80CC18531640002AE0A3 /* RecipeAppTests.m */,
+				F41C80C718531640002AE0A3 /* Supporting Files */,
+			);
+			name = GuiaTenisTests;
+			path = CustomTableTests;
+			sourceTree = "<group>";
+		};
+		F41C80C718531640002AE0A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F41C80C818531640002AE0A3 /* GuiaTenisTests-Info.plist */,
+				F41C80C918531640002AE0A3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4DF4E5C1873EF8D0065FDBC /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				9DA11FAC1929659E00B0FCD9 /* PisadaPronada.png */,
+				9DA11FAD1929659E00B0FCD9 /* PisadaNeutra.png */,
+				9DA11FAE1929659E00B0FCD9 /* PisadaSupinada.png */,
+				9DA11FA619291CFE00B0FCD9 /* help_30.png */,
+				9D2F07DF1921B949004126DB /* facebook.png */,
+				9DCF11111920DAB000989561 /* iTunesArtwork.png */,
+				9DCF1105192040C400989561 /* left-reveal-icon.png */,
+				9DCF110319202F1D00989561 /* noimage.png */,
+				9DCF10F9191FFE9100989561 /* reveal-icon.png */,
+				9DCF10FA191FFE9100989561 /* reveal-icon@2x.png */,
+				F4D2BFE3186B096D0037FAEE /* photo-frame.png */,
+				F4D2BFE4186B096D0037FAEE /* photo-frame@2x.png */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F41C809D18531640002AE0A3 /* GuiaTenis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F41C80D018531640002AE0A3 /* Build configuration list for PBXNativeTarget "GuiaTenis" */;
+			buildPhases = (
+				F41C809A18531640002AE0A3 /* Sources */,
+				F41C809B18531640002AE0A3 /* Frameworks */,
+				F41C809C18531640002AE0A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuiaTenis;
+			productName = CustomTable;
+			productReference = F41C809E18531640002AE0A3 /* GuiaTenis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F41C80BE18531640002AE0A3 /* GuiaTenisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F41C80D318531640002AE0A3 /* Build configuration list for PBXNativeTarget "GuiaTenisTests" */;
+			buildPhases = (
+				F41C80BB18531640002AE0A3 /* Sources */,
+				F41C80BC18531640002AE0A3 /* Frameworks */,
+				F41C80BD18531640002AE0A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F41C80C518531640002AE0A3 /* PBXTargetDependency */,
+			);
+			name = GuiaTenisTests;
+			productName = CustomTableTests;
+			productReference = F41C80BF18531640002AE0A3 /* GuiaTenisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F41C809618531640002AE0A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "";
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Appcoda;
+				TargetAttributes = {
+					F41C809D18531640002AE0A3 = {
+						DevelopmentTeam = 6YY44H99V6;
+					};
+					F41C80BE18531640002AE0A3 = {
+						TestTargetID = F41C809D18531640002AE0A3;
+					};
+				};
+			};
+			buildConfigurationList = F41C809918531640002AE0A3 /* Build configuration list for PBXProject "GuiaTenis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F41C809518531640002AE0A3;
+			productRefGroup = F41C809F18531640002AE0A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F41C809D18531640002AE0A3 /* GuiaTenis */,
+				F41C80BE18531640002AE0A3 /* GuiaTenisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F41C809C18531640002AE0A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA11FAF1929659E00B0FCD9 /* PisadaPronada.png in Resources */,
+				F4D2BFE6186B096D0037FAEE /* photo-frame@2x.png in Resources */,
+				9DA11FB01929659E00B0FCD9 /* PisadaNeutra.png in Resources */,
+				9DCF110419202F1D00989561 /* noimage.png in Resources */,
+				9DCF10FC191FFE9100989561 /* reveal-icon@2x.png in Resources */,
+				F41C80BA18531640002AE0A3 /* Images.xcassets in Resources */,
+				9D2F07E01921B949004126DB /* facebook.png in Resources */,
+				9DCF1106192040C500989561 /* left-reveal-icon.png in Resources */,
+				F41C80AC18531640002AE0A3 /* InfoPlist.strings in Resources */,
+				9DA11FB11929659E00B0FCD9 /* PisadaSupinada.png in Resources */,
+				9DCF11121920DAB000989561 /* iTunesArtwork.png in Resources */,
+				F41C80B518531640002AE0A3 /* Main.storyboard in Resources */,
+				F4D2BFE5186B096D0037FAEE /* photo-frame.png in Resources */,
+				9DA11FA819291CFE00B0FCD9 /* help_30.png in Resources */,
+				9DCF10FB191FFE9100989561 /* reveal-icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41C80BD18531640002AE0A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41C80CB18531640002AE0A3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F41C809A18531640002AE0A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA11FAB192920D200B0FCD9 /* HelpViewController.m in Sources */,
+				9DCF10FF192007F400989561 /* SidebarViewController.m in Sources */,
+				F41C80B218531640002AE0A3 /* RecipeAppDelegate.m in Sources */,
+				F41C80B818531640002AE0A3 /* RecipeTableViewController.m in Sources */,
+				F41C80AE18531640002AE0A3 /* main.m in Sources */,
+				9DB11E7D1916FEB900E2F6E7 /* Tenis.m in Sources */,
+				9DCF10F4191FBA4C00989561 /* SWRevealViewController.m in Sources */,
+				F41C80F818577EB8002AE0A3 /* RecipeTableCell.m in Sources */,
+				F49F790F186882700036E03F /* RecipeDetailViewController.m in Sources */,
+				9D19CB20192374750088B8AD /* NovidadesTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41C80BB18531640002AE0A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41C80CD18531640002AE0A3 /* RecipeAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F41C80C518531640002AE0A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F41C809D18531640002AE0A3 /* GuiaTenis */;
+			targetProxy = F41C80C418531640002AE0A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F41C80AA18531640002AE0A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F41C80AB18531640002AE0A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F41C80B318531640002AE0A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F41C80B418531640002AE0A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F41C80C918531640002AE0A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F41C80CA18531640002AE0A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F41C80CE18531640002AE0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ricardo Andrade (6YY44H99V6)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F41C80CF18531640002AE0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ricardo Andrade (6YY44H99V6)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F41C80D118531640002AE0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"/Users/ricardoandrade/Downloads/Download/revmob-ios-sdk/RevMobSampleApp",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomTable/GuiaTenis-Prefix.pch";
+				INFOPLIST_FILE = "CustomTable/GuiaTenisApp-Info.plist";
+				PRODUCT_NAME = GuiaTenis;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F41C80D218531640002AE0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"/Users/ricardoandrade/Downloads/Download/revmob-ios-sdk/RevMobSampleApp",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomTable/GuiaTenis-Prefix.pch";
+				INFOPLIST_FILE = "CustomTable/GuiaTenisApp-Info.plist";
+				PRODUCT_NAME = GuiaTenis;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F41C80D418531640002AE0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomTable.app/CustomTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomTable/CustomTable-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CustomTableTests/GuiaTenisTests-Info.plist";
+				PRODUCT_NAME = GuiaTenisTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F41C80D518531640002AE0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomTable.app/CustomTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomTable/CustomTable-Prefix.pch";
+				INFOPLIST_FILE = "CustomTableTests/GuiaTenisTests-Info.plist";
+				PRODUCT_NAME = GuiaTenisTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F41C809918531640002AE0A3 /* Build configuration list for PBXProject "GuiaTenis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41C80CE18531640002AE0A3 /* Debug */,
+				F41C80CF18531640002AE0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F41C80D018531640002AE0A3 /* Build configuration list for PBXNativeTarget "GuiaTenis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41C80D118531640002AE0A3 /* Debug */,
+				F41C80D218531640002AE0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F41C80D318531640002AE0A3 /* Build configuration list for PBXNativeTarget "GuiaTenisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41C80D418531640002AE0A3 /* Debug */,
+				F41C80D518531640002AE0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F41C809618531640002AE0A3 /* Project object */;
+}
