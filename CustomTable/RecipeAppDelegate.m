@@ -120,7 +120,6 @@
     
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
     //[RevMobAds session].testingMode = RevMobAdsTestingModeWithAds;
-    //[RevMobAds session].userInterests = @[@"sports", @"games", @"mobile", @"advertising"];
     [[RevMobAds session] showFullscreen];
     //[[RevMobAds session] showPopup];
     //[[RevMobAds session] showBanner];
