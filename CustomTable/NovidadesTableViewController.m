@@ -46,7 +46,6 @@
     // Set the gesture
     [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
 
-    
 }
 
 - (void)didReceiveMemoryWarning
@@ -80,9 +79,9 @@
 
     [query whereKey:@"status" containsString:@"Novo"];
     
-    [query orderByDescending:@"ano"];
+    [query orderByDescending:@"updatedAt"];
     
-    query.cachePolicy = kPFCachePolicyCacheThenNetwork;
+    //query.cachePolicy = kPFCachePolicyCacheThenNetwork;
     
     return query;
 }
@@ -95,7 +94,7 @@
     // Configure the cell
     PFFile *thumbnail = [object objectForKey:@"imagem"];
     PFImageView *thumbnailImageView = (PFImageView*)cell.thumbnailImageView;
-    thumbnailImageView.image = [UIImage imageNamed:@"iTunesArtwork.png"];
+    thumbnailImageView.image = [UIImage imageNamed:@"AppIcon72x72@2x.png"];
     thumbnailImageView.file = thumbnail;
     [thumbnailImageView loadInBackground];
     

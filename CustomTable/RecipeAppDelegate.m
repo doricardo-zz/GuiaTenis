@@ -10,12 +10,19 @@
 #import <RevMobAds/RevMobAds.h>
 #import <Parse/Parse.h>
 #import <CoreLocation/CoreLocation.h>
+#import "AppsfireSDK.h"
+
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 @implementation RecipeAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    [AppsfireSDK connectWithAPIKey:@"39BDB9A8EEDCD9F97C35C2DC752A4744"];
+    [AppsfireSDK setFeatures:AFSDKFeatureEngage];
+    
+    
     [RevMobAds startSessionWithAppID:@"536cab51f9344f3c440f6cb7"];
     
     // Override point for customization after application launch.
@@ -39,9 +46,7 @@
     [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
                                                            [UIColor colorWithRed:245.0/255.0 green:245.0/255.0 blue:245.0/255.0 alpha:1.0], NSForegroundColorAttributeName,
                                                            shadow, NSShadowAttributeName,
-                                                           [UIFont fontWithName:@"Verdana" size:21.0], NSFontAttributeName, nil]];
-
-    //[[UINavigationBar appearance] setTitleTextAttributes:<#(NSDictionary *)#>];`
+                                                           [UIFont fontWithName:@"Helvetica" size:21.0], NSFontAttributeName, nil]];
 
     return YES;
 }

@@ -9,8 +9,14 @@
 /* Begin PBXBuildFile section */
 		9D01E253191DB3B300353BDF /* RevMobAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D01E252191DB3B300353BDF /* RevMobAds.framework */; };
 		9D080124191CE95500907A4A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D080123191CE95500907A4A /* AdSupport.framework */; };
+		9D18E364193A6A320059356F /* info_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D18E363193A6A320059356F /* info_30.png */; };
 		9D19CB20192374750088B8AD /* NovidadesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D19CB1F192374750088B8AD /* NovidadesTableViewController.m */; };
+		9D2439D61938980000B0D68E /* AppIcon72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2439D51938980000B0D68E /* AppIcon72x72@2x.png */; };
 		9D2F07E01921B949004126DB /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2F07DF1921B949004126DB /* facebook.png */; };
+		9D82228F193BC46500A86A63 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D82228E193BC46500A86A63 /* AboutViewController.m */; };
+		9D822293193C8B1D00A86A63 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D822292193C8B1D00A86A63 /* Accelerate.framework */; };
+		9D82229F193C8BF900A86A63 /* libAppsfireSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D822298193C8BF900A86A63 /* libAppsfireSDK.a */; };
+		9D8222A3193D545200A86A63 /* mailclosed.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8222A2193D545200A86A63 /* mailclosed.png */; };
 		9DA11FA819291CFE00B0FCD9 /* help_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA11FA619291CFE00B0FCD9 /* help_30.png */; };
 		9DA11FAB192920D200B0FCD9 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA11FAA192920D200B0FCD9 /* HelpViewController.m */; };
 		9DA11FAF1929659E00B0FCD9 /* PisadaPronada.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA11FAC1929659E00B0FCD9 /* PisadaPronada.png */; };
@@ -31,10 +37,8 @@
 		9DCF10FB191FFE9100989561 /* reveal-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCF10F9191FFE9100989561 /* reveal-icon.png */; };
 		9DCF10FC191FFE9100989561 /* reveal-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCF10FA191FFE9100989561 /* reveal-icon@2x.png */; };
 		9DCF10FF192007F400989561 /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCF10FE192007F400989561 /* SidebarViewController.m */; };
-		9DCF110419202F1D00989561 /* noimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCF110319202F1D00989561 /* noimage.png */; };
 		9DCF1106192040C500989561 /* left-reveal-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCF1105192040C400989561 /* left-reveal-icon.png */; };
 		9DCF11081920BA3D00989561 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DCF11071920BA3D00989561 /* Social.framework */; };
-		9DCF11121920DAB000989561 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCF11111920DAB000989561 /* iTunesArtwork.png */; };
 		F41C80A218531640002AE0A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41C80A118531640002AE0A3 /* Foundation.framework */; };
 		F41C80A418531640002AE0A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41C80A318531640002AE0A3 /* CoreGraphics.framework */; };
 		F41C80A618531640002AE0A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41C80A518531640002AE0A3 /* UIKit.framework */; };
@@ -51,8 +55,6 @@
 		F41C80CD18531640002AE0A3 /* RecipeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F41C80CC18531640002AE0A3 /* RecipeAppTests.m */; };
 		F41C80F818577EB8002AE0A3 /* RecipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F41C80F718577EB8002AE0A3 /* RecipeTableCell.m */; };
 		F49F790F186882700036E03F /* RecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49F790E186882700036E03F /* RecipeDetailViewController.m */; };
-		F4D2BFE5186B096D0037FAEE /* photo-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D2BFE3186B096D0037FAEE /* photo-frame.png */; };
-		F4D2BFE6186B096D0037FAEE /* photo-frame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D2BFE4186B096D0037FAEE /* photo-frame@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,9 +70,21 @@
 /* Begin PBXFileReference section */
 		9D01E252191DB3B300353BDF /* RevMobAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RevMobAds.framework; sourceTree = "<group>"; };
 		9D080123191CE95500907A4A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		9D18E363193A6A320059356F /* info_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_30.png; sourceTree = "<group>"; };
 		9D19CB1E192374750088B8AD /* NovidadesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NovidadesTableViewController.h; sourceTree = "<group>"; };
 		9D19CB1F192374750088B8AD /* NovidadesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NovidadesTableViewController.m; sourceTree = "<group>"; };
+		9D2439D51938980000B0D68E /* AppIcon72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon72x72@2x.png"; sourceTree = "<group>"; };
 		9D2F07DF1921B949004126DB /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		9D82228D193BC46500A86A63 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		9D82228E193BC46500A86A63 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		9D822290193C87A000A86A63 /* AppsfireSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppsfireSDK.h; sourceTree = "<group>"; };
+		9D822291193C88A100A86A63 /* AppsfireSDKConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppsfireSDKConstants.h; sourceTree = "<group>"; };
+		9D822292193C8B1D00A86A63 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		9D822295193C8BF900A86A63 /* AppsfireAdSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppsfireAdSDK.h; sourceTree = "<group>"; };
+		9D822296193C8BF900A86A63 /* AppsfireSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppsfireSDK.h; sourceTree = "<group>"; };
+		9D822297193C8BF900A86A63 /* AppsfireSDKConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppsfireSDKConstants.h; sourceTree = "<group>"; };
+		9D822298193C8BF900A86A63 /* libAppsfireSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppsfireSDK.a; sourceTree = "<group>"; };
+		9D8222A2193D545200A86A63 /* mailclosed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mailclosed.png; sourceTree = "<group>"; };
 		9DA11FA619291CFE00B0FCD9 /* help_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help_30.png; sourceTree = "<group>"; };
 		9DA11FA9192920D200B0FCD9 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
 		9DA11FAA192920D200B0FCD9 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
@@ -95,10 +109,8 @@
 		9DCF10FA191FFE9100989561 /* reveal-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal-icon@2x.png"; sourceTree = "<group>"; };
 		9DCF10FD192007F400989561 /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarViewController.h; sourceTree = "<group>"; };
 		9DCF10FE192007F400989561 /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarViewController.m; sourceTree = "<group>"; };
-		9DCF110319202F1D00989561 /* noimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage.png; sourceTree = "<group>"; };
 		9DCF1105192040C400989561 /* left-reveal-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-reveal-icon.png"; sourceTree = "<group>"; };
 		9DCF11071920BA3D00989561 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
-		9DCF11111920DAB000989561 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
 		F41C809E18531640002AE0A3 /* GuiaTenis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuiaTenis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F41C80A118531640002AE0A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F41C80A318531640002AE0A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -122,8 +134,6 @@
 		F41C80F718577EB8002AE0A3 /* RecipeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeTableCell.m; sourceTree = "<group>"; };
 		F49F790D186882700036E03F /* RecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailViewController.h; sourceTree = "<group>"; };
 		F49F790E186882700036E03F /* RecipeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailViewController.m; sourceTree = "<group>"; };
-		F4D2BFE3186B096D0037FAEE /* photo-frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photo-frame.png"; path = "images/photo-frame.png"; sourceTree = "<group>"; };
-		F4D2BFE4186B096D0037FAEE /* photo-frame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photo-frame@2x.png"; path = "images/photo-frame@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D822293193C8B1D00A86A63 /* Accelerate.framework in Frameworks */,
 				9D01E253191DB3B300353BDF /* RevMobAds.framework in Frameworks */,
 				9DB11E6E1916FDD500E2F6E7 /* CoreLocation.framework in Frameworks */,
 				9D080124191CE95500907A4A /* AdSupport.framework in Frameworks */,
@@ -142,6 +153,7 @@
 				9DB11E701916FDDE00E2F6E7 /* libz.1.1.3.dylib in Frameworks */,
 				9DB11E6C1916FDC800E2F6E7 /* CFNetwork.framework in Frameworks */,
 				9DB11E6A1916FDC200E2F6E7 /* AudioToolbox.framework in Frameworks */,
+				9D82229F193C8BF900A86A63 /* libAppsfireSDK.a in Frameworks */,
 				F41C80A418531640002AE0A3 /* CoreGraphics.framework in Frameworks */,
 				F41C80A618531640002AE0A3 /* UIKit.framework in Frameworks */,
 				9DB11E681916FB7800E2F6E7 /* Parse.framework in Frameworks */,
@@ -163,9 +175,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D822294193C8BF900A86A63 /* appsfire-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				9D822295193C8BF900A86A63 /* AppsfireAdSDK.h */,
+				9D822296193C8BF900A86A63 /* AppsfireSDK.h */,
+				9D822297193C8BF900A86A63 /* AppsfireSDKConstants.h */,
+				9D822298193C8BF900A86A63 /* libAppsfireSDK.a */,
+			);
+			path = "appsfire-sdk";
+			sourceTree = "<group>";
+		};
 		9DCF10F1191FBA3B00989561 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				9D822290193C87A000A86A63 /* AppsfireSDK.h */,
+				9D822291193C88A100A86A63 /* AppsfireSDKConstants.h */,
 				9DCF10F2191FBA4C00989561 /* SWRevealViewController.h */,
 				9DCF10F3191FBA4C00989561 /* SWRevealViewController.m */,
 			);
@@ -176,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				F41C80A718531640002AE0A3 /* GuiaTenis */,
+				9D822294193C8BF900A86A63 /* appsfire-sdk */,
 				F41C80C618531640002AE0A3 /* GuiaTenisTests */,
 				F41C80A018531640002AE0A3 /* Frameworks */,
 				F41C809F18531640002AE0A3 /* Products */,
@@ -194,6 +220,7 @@
 		F41C80A018531640002AE0A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9D822292193C8B1D00A86A63 /* Accelerate.framework */,
 				9DCF11071920BA3D00989561 /* Social.framework */,
 				9D01E252191DB3B300353BDF /* RevMobAds.framework */,
 				9D080123191CE95500907A4A /* AdSupport.framework */,
@@ -219,6 +246,7 @@
 			isa = PBXGroup;
 			children = (
 				F41C80B318531640002AE0A3 /* Main.storyboard */,
+				F41C80B918531640002AE0A3 /* Images.xcassets */,
 				F41C80B018531640002AE0A3 /* RecipeAppDelegate.h */,
 				F41C80B118531640002AE0A3 /* RecipeAppDelegate.m */,
 				9DCF10FD192007F400989561 /* SidebarViewController.h */,
@@ -227,13 +255,14 @@
 				9D19CB1F192374750088B8AD /* NovidadesTableViewController.m */,
 				F41C80B618531640002AE0A3 /* RecipeTableViewController.h */,
 				F41C80B718531640002AE0A3 /* RecipeTableViewController.m */,
-				F41C80B918531640002AE0A3 /* Images.xcassets */,
 				F41C80F718577EB8002AE0A3 /* RecipeTableCell.m */,
 				F41C80F618577EB8002AE0A3 /* RecipeTableCell.h */,
 				F49F790D186882700036E03F /* RecipeDetailViewController.h */,
 				F49F790E186882700036E03F /* RecipeDetailViewController.m */,
 				9DA11FA9192920D200B0FCD9 /* HelpViewController.h */,
 				9DA11FAA192920D200B0FCD9 /* HelpViewController.m */,
+				9D82228D193BC46500A86A63 /* AboutViewController.h */,
+				9D82228E193BC46500A86A63 /* AboutViewController.m */,
 				9DB11E7B1916FEB900E2F6E7 /* Tenis.h */,
 				9DB11E7C1916FEB900E2F6E7 /* Tenis.m */,
 				9DCF10F1191FBA3B00989561 /* Library */,
@@ -277,18 +306,17 @@
 		F4DF4E5C1873EF8D0065FDBC /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				9D8222A2193D545200A86A63 /* mailclosed.png */,
+				9D18E363193A6A320059356F /* info_30.png */,
+				9D2439D51938980000B0D68E /* AppIcon72x72@2x.png */,
 				9DA11FAC1929659E00B0FCD9 /* PisadaPronada.png */,
 				9DA11FAD1929659E00B0FCD9 /* PisadaNeutra.png */,
 				9DA11FAE1929659E00B0FCD9 /* PisadaSupinada.png */,
 				9DA11FA619291CFE00B0FCD9 /* help_30.png */,
 				9D2F07DF1921B949004126DB /* facebook.png */,
-				9DCF11111920DAB000989561 /* iTunesArtwork.png */,
 				9DCF1105192040C400989561 /* left-reveal-icon.png */,
-				9DCF110319202F1D00989561 /* noimage.png */,
 				9DCF10F9191FFE9100989561 /* reveal-icon.png */,
 				9DCF10FA191FFE9100989561 /* reveal-icon@2x.png */,
-				F4D2BFE3186B096D0037FAEE /* photo-frame.png */,
-				F4D2BFE4186B096D0037FAEE /* photo-frame@2x.png */,
 			);
 			name = resources;
 			sourceTree = "<group>";
@@ -374,19 +402,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DA11FAF1929659E00B0FCD9 /* PisadaPronada.png in Resources */,
-				F4D2BFE6186B096D0037FAEE /* photo-frame@2x.png in Resources */,
 				9DA11FB01929659E00B0FCD9 /* PisadaNeutra.png in Resources */,
-				9DCF110419202F1D00989561 /* noimage.png in Resources */,
+				9D2439D61938980000B0D68E /* AppIcon72x72@2x.png in Resources */,
 				9DCF10FC191FFE9100989561 /* reveal-icon@2x.png in Resources */,
 				F41C80BA18531640002AE0A3 /* Images.xcassets in Resources */,
+				9D8222A3193D545200A86A63 /* mailclosed.png in Resources */,
 				9D2F07E01921B949004126DB /* facebook.png in Resources */,
 				9DCF1106192040C500989561 /* left-reveal-icon.png in Resources */,
 				F41C80AC18531640002AE0A3 /* InfoPlist.strings in Resources */,
 				9DA11FB11929659E00B0FCD9 /* PisadaSupinada.png in Resources */,
-				9DCF11121920DAB000989561 /* iTunesArtwork.png in Resources */,
 				F41C80B518531640002AE0A3 /* Main.storyboard in Resources */,
-				F4D2BFE5186B096D0037FAEE /* photo-frame.png in Resources */,
 				9DA11FA819291CFE00B0FCD9 /* help_30.png in Resources */,
+				9D18E364193A6A320059356F /* info_30.png in Resources */,
 				9DCF10FB191FFE9100989561 /* reveal-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +441,7 @@
 				9DB11E7D1916FEB900E2F6E7 /* Tenis.m in Sources */,
 				9DCF10F4191FBA4C00989561 /* SWRevealViewController.m in Sources */,
 				F41C80F818577EB8002AE0A3 /* RecipeTableCell.m in Sources */,
+				9D82228F193BC46500A86A63 /* AboutViewController.m in Sources */,
 				F49F790F186882700036E03F /* RecipeDetailViewController.m in Sources */,
 				9D19CB20192374750088B8AD /* NovidadesTableViewController.m in Sources */,
 			);
@@ -498,7 +526,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -531,7 +559,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -552,6 +580,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomTable/GuiaTenis-Prefix.pch";
 				INFOPLIST_FILE = "CustomTable/GuiaTenisApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/appsfire-sdk",
+				);
 				PRODUCT_NAME = GuiaTenis;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -573,6 +606,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomTable/GuiaTenis-Prefix.pch";
 				INFOPLIST_FILE = "CustomTable/GuiaTenisApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/appsfire-sdk",
+				);
 				PRODUCT_NAME = GuiaTenis;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;

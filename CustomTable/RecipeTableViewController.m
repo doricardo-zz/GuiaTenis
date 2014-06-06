@@ -88,7 +88,7 @@
         [query whereKey:@"categoria" containsString:self.title];
     else if ([self.title  isEqual: @"Leveza"])
         [query whereKey:@"categoria" containsString:self.title];
-    else if ([self.title  isEqual: @"Levíssimo"])
+    else if ([self.title  isEqual: @"Levissimo"])
         [query whereKey:@"categoria" containsString:self.title];
     else if ([self.title  isEqual: @"Minimalista"])
         [query whereKey:@"categoria" containsString:self.title];
@@ -135,7 +135,7 @@
     // Configure the cell
     PFFile *thumbnail = [object objectForKey:@"imagem"];
     PFImageView *thumbnailImageView = (PFImageView*)cell.thumbnailImageView;
-    thumbnailImageView.image = [UIImage imageNamed:@"iTunesArtwork.png"];
+    thumbnailImageView.image = [UIImage imageNamed:@"AppIcon72x72@2x.png"];
     thumbnailImageView.file = thumbnail;
     [thumbnailImageView loadInBackground];
    

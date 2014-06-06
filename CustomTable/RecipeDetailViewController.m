@@ -68,9 +68,9 @@
     if([SLComposeViewController isAvailableForServiceType:SLServiceTypeFacebook]) {
         SLComposeViewController *controller = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
      
-        [controller setInitialText:[NSString stringWithFormat:@"%@ %@ %@ ",@"Tênis",self.fabricante.text,self.title] ];
+        [controller setInitialText:[NSString stringWithFormat:@"%@ %@. %@ ", self.fabricante.text,self.title, @"Guia Tênis App Store."]];
         [controller addImage:self.recipeImageView.image];
-        [controller addURL:[NSURL URLWithString:@"http://itunes.apple.com"]];
+        [controller addURL:[NSURL URLWithString:@"https://itunes.apple.com/pt/app/guia-tenis/id879955446?ls=1&mt=8"]];
 
         [self presentViewController:controller animated:YES completion:Nil];
     }

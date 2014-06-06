@@ -1,16 +1,15 @@
 //
 //  AboutViewController.h
-//  RecipeApp
+//  GuiaTenis
 //
-//  Created by Simon on 24/12/13.
-//  Copyright (c) 2013 Appcoda. All rights reserved.
+//  Created by Ricardo Andrade on 01/06/2014.
+//  Copyright (c) 2014 Appcoda. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "Parse/Parse.h"
 
-@interface AboutViewController : PFQueryTableViewController
+@interface AboutViewController : UIViewController
 
-
+- (IBAction)backButton:(id)sender;
 
 @end

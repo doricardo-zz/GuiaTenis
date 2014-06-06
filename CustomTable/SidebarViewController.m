@@ -8,7 +8,11 @@
 
 #import "SidebarViewController.h"
 #import "SWRevealViewController.h"
+#import "AboutViewController.h"
+#import "AppsfireSDK.h"
+
 //#import "PhotoViewController.h"
+
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 @interface SidebarViewController ()
@@ -29,15 +33,20 @@
     return self;
 }
 
+-(UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 
-    menuItems = @[@"novidades", @"pisada", @"supinador", @"neutro", @"pronador", @"categoria", @"amortecimento", @"competicao", @"estabilidade", @"leveza", @"levissimo", @"minimalista", @"multipisada", @"trilha"];
+    menuItems = @[@"sugestoes",@"novidades", @"pisada", @"supinador", @"neutro", @"pronador", @"categoria", @"amortecimento", @"competicao", @"estabilidade", @"leveza", @"levissimo", @"minimalista", @"multipisada", @"trilha"];
 
     //self.view.backgroundColor = UIColorFromRGB(0xFF6D44);
     //self.view.backgroundColor = [UIColor lightGrayColor];
-    //self.tableView.backgroundColor = [UIColor lightGrayColor];
+    //self.tableView.backgroundColor = [UIColor lightGrayColor];`
     
 }
 
@@ -53,6 +62,15 @@
 {
     // Return the number of sections.
     return 1;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+  [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
+
+    if (indexPath.row == 0) {
+        //[AppsfireSDK setBackgroundColor:UIColorFromRGB(0xFF6D44) textColor:[UIColor whiteColor]];
+        [AppsfireSDK presentPanelForContent:AFSDKPanelContentFeedbackOnly withStyle:AFSDKPanelStyleFullscreen];
+    }
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -76,15 +94,9 @@
 {
     // Set the title of navigation bar by using the menu items
     NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+    
     UINavigationController *destViewController = (UINavigationController*)segue.destinationViewController;
     destViewController.title = [[menuItems objectAtIndex:indexPath.row] capitalizedString];
-    
-    // Set the photo if it navigates to the PhotoView
-    //if ([segue.identifier isEqualToString:@"showPhoto"]) {
-      //  PhotoViewController *photoController = (PhotoViewController*)segue.destinationViewController;
-        //NSString *photoFilename = [NSString stringWithFormat:@"%@_photo.jpg", [menuItems objectAtIndex:indexPath.row]];
-     //   photoController.photoFilename = photoFilename;
-    //}
     
     if ( [segue isKindOfClass: [SWRevealViewControllerSegue class]] ) {
         SWRevealViewControllerSegue *swSegue = (SWRevealViewControllerSegue*) segue;
@@ -96,6 +108,11 @@
             [self.revealViewController setFrontViewPosition: FrontViewPositionLeft animated: YES];
         };
         
+    }
+    
+    if ([segue.identifier isEqualToString:@"showAbout"]) {
+        AboutViewController *aboutViewController = segue.destinationViewController;
+        aboutViewController.title = self.title;
     }
     
 }

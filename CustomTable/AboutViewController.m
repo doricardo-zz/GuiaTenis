@@ -1,16 +1,12 @@
 //
 //  AboutViewController.m
-//  RecipeApp
+//  GuiaTenis
 //
-//  Created by Simon on 24/12/13.
-//  Copyright (c) 2013 Appcoda. All rights reserved.
+//  Created by Ricardo Andrade on 01/06/2014.
+//  Copyright (c) 2014 Appcoda. All rights reserved.
 //
 
 #import "AboutViewController.h"
-#import "RecipeTableViewController.h"
-#import "RecipeTableCell.h"
-#import "RecipeDetailViewController.h"
-#import "Tenis.h"
 
 @interface AboutViewController ()
 
@@ -30,7 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning
@@ -39,56 +35,20 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (id)initWithCoder:(NSCoder *)aCoder
-{
-    self = [super initWithCoder:aCoder];
-    if (self) {
-        // The className to query on
-        self.parseClassName = @"Tenis";
-        // The key of the PFObject to display in the label of the default cell style
-        self.textKey = @"name";
-        // Whether the built-in pull-to-refresh is enabled
-        self.pullToRefreshEnabled = YES;
-        // Whether the built-in pagination is enabled
-        self.paginationEnabled = NO;
-        
-    }
-    return self;
-}
+/*
+#pragma mark - Navigation
 
-- (PFQuery *)queryForTable
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    PFQuery *query = [PFQuery queryWithClassName:self.parseClassName];
-    [query whereKey:@"pisada" containsString:@"Neutro"];
-    [query orderByDescending:@"ano"];
-    
-    return query;
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
 }
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath
-                                                                               *)indexPath object:(PFObject *)object
-{
-    static NSString *CellIdentifier = @"CustomTableCell";
-    RecipeTableCell *cell = (RecipeTableCell *)[self.tableView
-                                                dequeueReusableCellWithIdentifier:CellIdentifier];
-    // Configure the cell
-    PFFile *thumbnail = [object objectForKey:@"imagem"];
-    PFImageView *thumbnailImageView = (PFImageView*)cell.thumbnailImageView;
-    thumbnailImageView.image = [UIImage imageNamed:@"placeholder.jpg"];
-    thumbnailImageView.file = thumbnail;
-    [thumbnailImageView loadInBackground];
-    cell.nameLabel.text = [object objectForKey:@"name"];
-    cell.prepTimeLabel.text = [object objectForKey:@"ano"];
-    return cell;
-}
+*/
 
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if ([segue.identifier isEqualToString:@"showRecipeDetail"]) {
-        //NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        //RecipeDetailViewController *destViewController = segue.destinationViewController;
-        
-        //Recipe *recipe = [recipes objectAtIndex:indexPath.row];
-        //destViewController.recipe = recipe;
-    }
+- (IBAction)backButton:(id)sender {
+  
+    [self.navigationController dismissViewControllerAnimated:YES completion:nil];
 }
 
 
